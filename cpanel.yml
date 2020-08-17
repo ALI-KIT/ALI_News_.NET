@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home2/tindiaph/public_html/
+    - /bin/cp -R /home2/tindiaph/gitrepo/testing $DEPLOYPATH
